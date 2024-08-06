@@ -13,6 +13,10 @@
     "test": "vitest --no-watch",
     "watch": "vitest"
   },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
   "dependencies": {
     "clsx": "^2.1.1",
     "lucide-react": "^0.424.0",
