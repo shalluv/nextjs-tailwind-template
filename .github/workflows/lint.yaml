@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 jobs:
-  deploy:
+  lint-and-style-check:
     runs-on: ubuntu-latest
     strategy:
       matrix:
